@@ -2,12 +2,13 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PAM_Astronomy.Views.MoonPhaseView"
-             Title="MoonPhaseView">
+             Title="MoonPhaseView"
+             >
 
     <ContentPage.Resources>
         <ResourceDictionary>
-            <Color x:Key="textColor">White</Color>
-            <Color x:Key="boxColor">#44FFFFFF</Color>
+            <Color x:Key="textColor">Black</Color>
+            <Color x:Key="boxColor">White</Color>
             <Style TargetType="Label">
                 <Setter Property="TextColor" Value="{StaticResource textColor}" />
                 <Setter Property="HorizontalOptions" Value="Center" />
